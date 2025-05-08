@@ -1,4 +1,4 @@
-loadTemplate("org.rhinolinux.desktop.defaultPanel")
+loadTemplate("org.rhinolinux.desktop.unicornPanel")
 
 var desktopsArray = desktopsForActivity(currentActivity());
 for( var j = 0; j < desktopsArray.length; j++) {

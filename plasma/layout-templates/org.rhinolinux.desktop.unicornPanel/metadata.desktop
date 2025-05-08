@@ -1,13 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Rhino Linux KDE Default Panel
+Name=Unicorn Default Panel
 Type=Service
 ServiceTypes=Plasma/LayoutTemplate
 X-Plasma-Shell=plasmashell
 X-Plasma-ContainmentCategories=panel
 X-KDE-PluginInfo-Author=villamorrd
 X-KDE-PluginInfo-Email=villamorrd@students.nu-moa.edu.ph
-X-KDE-PluginInfo-Name=org.rhinolinux.desktop.defaultPanel
+X-KDE-PluginInfo-Name=org.rhinolinux.desktop.unicornPanel
 X-KDE-PluginInfo-Version=1.0
 X-KDE-PluginInfo-Website=https://rhinolinux.org/
 X-KDE-PluginInfo-Category=

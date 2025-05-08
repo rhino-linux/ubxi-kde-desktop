@@ -9,9 +9,9 @@
         ],
         "Category": "",
         "EnabledByDefault": true,
-        "Id": "org.rhinolinux.desktop.defaultPanel",
+        "Id": "org.rhinolinux.desktop.unicornPanel",
         "License": "GPLv3+",
-        "Name": "Rhino Linux KDE Default Panel",
+        "Name": "Unicorn Default Panel",
         "ServiceTypes": [
             "Plasma/LayoutTemplate"
         ],
