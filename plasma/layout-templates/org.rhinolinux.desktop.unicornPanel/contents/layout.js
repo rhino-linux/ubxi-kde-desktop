@@ -103,8 +103,7 @@ dockPanel.hiding = "dodgewindows"
 dockPanel.lengthMode = "fit"
 var appLauncher = dockPanel.addWidget("org.kde.plasma.kickoff")
 appLauncher.currentConfigGroup = ["General"]
-appLauncher.writeConfig("customButtonImage", "/usr/share/icons/uniPlasma.png")
-appLauncher.writeConfig("useCustomButtonImage", "true")
+appLauncher.writeConfig("icon", "/usr/share/icons/uniPlasma.png")
 appLauncher.reloadConfig();
 var taskManager = dockPanel.addWidget("org.kde.plasma.icontasks")
 taskManager.currentConfigGroup = ["General"]
