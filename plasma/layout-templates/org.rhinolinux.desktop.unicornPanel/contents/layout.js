@@ -101,7 +101,11 @@ dockPanel.location = "left"
 dockPanel.height = 40
 dockPanel.hiding = "dodgewindows"
 dockPanel.lengthMode = "fit"
-dockPanel.addWidget("org.kde.plasma.kickoff")
+var appLauncher = dockPanel.addWidget("org.kde.plasma.kickoff")
+appLauncher.currentConfigGroup = ["General"]
+appLauncher.writeConfig("customButtonImage", "/usr/share/icons/uniPlasma.png")
+appLauncher.writeConfig("useCustomButtonImage", "true")
+appLauncher.reloadConfig();
 var taskManager = dockPanel.addWidget("org.kde.plasma.icontasks")
 taskManager.currentConfigGroup = ["General"]
 taskManager.writeConfig("launchers", "applications:krunner.desktop,applications:kwin-overview.desktop,applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:codium.desktop,applications:org.kde.konsole.desktop,applications:org.rhinolinux.system.desktop")
