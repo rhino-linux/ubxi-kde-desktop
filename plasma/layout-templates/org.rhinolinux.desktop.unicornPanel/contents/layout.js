@@ -95,11 +95,13 @@ panel.addWidget("org.kde.plasma.systemtray")
 panel.addWidget("org.kde.plasma.digitalclock")
 panel.addWidget("org.kde.plasma.minimizeall")
 
+// Unicorn dock
 var dockPanel = new Panel
 dockPanel.location = "left"
 dockPanel.height = 40
 dockPanel.hiding = "dodgewindows"
 dockPanel.lengthMode = "fit"
+panel.addWidget("org.kde.plasma.kickoff");
 var taskManager = dockPanel.addWidget("org.kde.plasma.icontasks")
 taskManager.currentConfigGroup = ["General"]
 taskManager.writeConfig("launchers", "applications:krunner.desktop,applications:kwin-overview.desktop,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop")
