@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Desktop Switcher
+Comment=
+Exec=qdbus6 org.kde.kglobalaccel /component/kwin invokeShortcut Overview
+Icon=uniDesktop
+MimeType=
